@@ -67,7 +67,8 @@ const App = () => {
       <Content part={part3} exercise={exercises3} />
       <Total   exercises1={exercises1} exercises2={exercises2} exercises3={exercises3} />
       {object1.name}<br/>
-      {object2.name} {object2.level} {object2.size}
+      {object2.name} {object2.level} {object2.size}<br/>
+      {object3.name.first} {object3.grades[0]}
     </div>
     </>
   )
